@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Wish_Store</string>
+    <string name="cupcake_name">Cupcake</string>
+    <string name="cupcake_description">Magical cupcake</string>
+</resources>
