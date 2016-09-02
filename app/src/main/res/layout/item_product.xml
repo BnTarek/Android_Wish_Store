@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    card_view:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:id="@+id/list_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/small_padding"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/product_item_thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/thumbnail_hight"
+            android:scaleType="fitCenter"
+            tools:src="@drawable/cars" />
+
+        <TextView
+            android:id="@+id/product_item_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/small_padding"
+            android:textSize="@dimen/title"
+            tools:text="@string/cupcake" />
+
+        <TextView
+            android:id="@+id/product_item_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/small_padding"
+            android:textSize="@dimen/sub_heading"
+            tools:text="@string/cupcake_description" />
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

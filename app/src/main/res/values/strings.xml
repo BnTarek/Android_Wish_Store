@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">Wish_Store</string>
-    <string name="cupcake_name">Cupcake</string>
-    <string name="cupcake_description">Magical cupcake</string>
+    <string name="cupcake">Cupcake</string>
+    <string name="cupcake_description">Delicious freshly baked cupcakes</string>
+    <string name="quantity_max_error">Maximum quantity is 99!</string>
+    <string name="quantity_min_error">Minimum quantity is 1!</string>
+    <string name="order">ORDER</string>
 </resources>
